@@ -1,0 +1,12 @@
+{
+  "name": "contract-sign-legaltech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/contract-sign-service.test.ts",
+    "start": "node --experimental-strip-types src/contract-sign-service.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

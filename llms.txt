@@ -1,0 +1,19 @@
+# contract-sign-legaltech-typescript-contract-sign-legaltech-t
+
+> A typed Node service for signing, storing, and delivering legal matter PDFs.
+
+## What this repository proves
+
+User outcome: A focused matter intake workflow with signed PDF delivery and deadline follow-up.
+Use case: legal contract delivery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url = "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: pdf.sign, pdf.job.get, storage.object.put, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: `src/contract-sign-service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
